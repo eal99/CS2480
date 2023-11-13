@@ -1,0 +1,34 @@
+main {
+    grid-template-areas: "page-heading" "section-three" "section-one" "section-two";
+    grid-template-columns: auto;
+    padding-bottom: 2em;
+}
+
+figure,
+.form figure {
+    width: 90%;
+    margin: auto;
+}
+
+.form main {
+    grid-template-columns: auto;
+}
+
+.form main h1:first-child {
+    grid-column: 1;
+}
+
+.form .form-info {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.form .form-it-self {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.form .form-feedback {
+    grid-column: 1;
+    grid-row: 4;
+}
